@@ -5,10 +5,10 @@ indices:
   site:
     include:
       - '/**'
-    target: /query-index
     exclude:
       - '**/Document.*'
     # target: SharePoint URL of your query index, e.g. <shared-folder-url>/query-index.xlsx
+    target: https://drive.google.com/drive/folders/1_YNyiR7ygUlIyRn-8C9Ba2U4JIfaIccT/query-index
     properties:
       author:
         select: head > meta[name="author"]
